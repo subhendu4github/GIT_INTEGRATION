@@ -3,5 +3,7 @@ COLUMN TABLE "Customers" (
 	"NAME" NVARCHAR(256)      COMMENT 'Customer Name',   
 	"ACTIVE" TINYINT          COMMENT 'Currently active?',
 	"COUNTRY" NVARCHAR(256)   COMMENT 'Customer Country',
+	CUST_MAIL_ID NVARCHAR(256),
+	DEMO_GIT NVARCHAR(5),
 	PRIMARY KEY ("ID") )
 	COMMENT 'Table with Customer data' 
